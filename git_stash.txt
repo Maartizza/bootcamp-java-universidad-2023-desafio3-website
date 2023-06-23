@@ -1,0 +1,132 @@
+Marta@Marta MINGW64 /c/desarrollo/educationit/bootcamp-java-universidad-2023-desafios/desafio3/website
+$ git init
+Initialized empty Git repository in C:/desarrollo/educationit/bootcamp-java-universidad-2023-desafios/desafio3/website/.git/
+
+Marta@Marta MINGW64 /c/desarrollo/educationit/bootcamp-java-universidad-2023-desafios/desafio3/website (master)
+$ touch status.js
+
+Marta@Marta MINGW64 /c/desarrollo/educationit/bootcamp-java-universidad-2023-desafios/desafio3/website (master)
+$ touch index.html
+
+Marta@Marta MINGW64 /c/desarrollo/educationit/bootcamp-java-universidad-2023-desafios/desafio3/website (master)
+$ touch .gitignore
+
+Marta@Marta MINGW64 /c/desarrollo/educationit/bootcamp-java-universidad-2023-desafios/desafio3/website (master)
+$ touch readme.md
+
+Marta@Marta MINGW64 /c/desarrollo/educationit/bootcamp-java-universidad-2023-desafios/desafio3/website (master)
+$ git add .
+
+Marta@Marta MINGW64 /c/desarrollo/educationit/bootcamp-java-universidad-2023-desafios/desafio3/website (master)
+$ git commit -m "agregando archivos"
+[master (root-commit) 9278714] agregando archivos
+ 4 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 .gitignore
+ create mode 100644 index.html
+ create mode 100644 readme.md
+ create mode 100644 status.js
+
+Marta@Marta MINGW64 /c/desarrollo/educationit/bootcamp-java-universidad-2023-desafios/desafio3/website (master)
+$ git remote add origin https://github.com/Maartizza/bootcamp-java-universidad-2023-desafio3-website.git
+
+Marta@Marta MINGW64 /c/desarrollo/educationit/bootcamp-java-universidad-2023-desafios/desafio3/website (master)
+$ git push
+fatal: The current branch master has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin master
+
+To have this happen automatically for branches without a tracking
+upstream, see 'push.autoSetupRemote' in 'git help config'.
+
+
+Marta@Marta MINGW64 /c/desarrollo/educationit/bootcamp-java-universidad-2023-desafios/desafio3/website (master)
+$  git push --set-upstream origin master
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 255 bytes | 255.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/Maartizza/bootcamp-java-universidad-2023-desafio3-website.git
+ * [new branch]      master -> master
+branch 'master' set up to track 'origin/master'.
+
+Marta@Marta MINGW64 /c/desarrollo/educationit/bootcamp-java-universidad-2023-desafios/desafio3/website (master)
+$ dir
+index.html  readme.md  status.js
+
+Marta@Marta MINGW64 /c/desarrollo/educationit/bootcamp-java-universidad-2023-desafios/desafio3/website (master)
+$ git checkout -b dev
+Switched to a new branch 'dev'
+
+Marta@Marta MINGW64 /c/desarrollo/educationit/bootcamp-java-universidad-2023-desafios/desafio3/website (dev)
+$ git add .
+
+Marta@Marta MINGW64 /c/desarrollo/educationit/bootcamp-java-universidad-2023-desafios/desafio3/website (dev)
+$ git commit -m "add files"
+On branch dev
+nothing to commit, working tree clean
+
+Marta@Marta MINGW64 /c/desarrollo/educationit/bootcamp-java-universidad-2023-desafios/desafio3/website (dev)
+$ git push
+fatal: The current branch dev has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin dev
+
+To have this happen automatically for branches without a tracking
+upstream, see 'push.autoSetupRemote' in 'git help config'.
+
+
+Marta@Marta MINGW64 /c/desarrollo/educationit/bootcamp-java-universidad-2023-desafios/desafio3/website (dev)
+$ git push --set-upstream origin dev
+Total 0 (delta 0), reused 0 (delta 0), pack-reused 0
+remote:
+remote: Create a pull request for 'dev' on GitHub by visiting:
+remote:      https://github.com/Maartizza/bootcamp-java-universidad-2023-desafio3-website/pull/new/dev
+remote:
+To https://github.com/Maartizza/bootcamp-java-universidad-2023-desafio3-website.git
+ * [new branch]      dev -> dev
+branch 'dev' set up to track 'origin/dev'.
+
+Marta@Marta MINGW64 /c/desarrollo/educationit/bootcamp-java-universidad-2023-desafios/desafio3/website (dev)
+$ dir
+index.html  readme.md  status.js
+
+Marta@Marta MINGW64 /c/desarrollo/educationit/bootcamp-java-universidad-2023-desafios/desafio3/website (dev)
+$ git checkout -b feature/custom-navbar
+Switched to a new branch 'feature/custom-navbar'
+
+Marta@Marta MINGW64 /c/desarrollo/educationit/bootcamp-java-universidad-2023-desafios/desafio3/website (feature/custom-navbar)
+$ dir
+index.html  readme.md  status.js
+
+Marta@Marta MINGW64 /c/desarrollo/educationit/bootcamp-java-universidad-2023-desafios/desafio3/website (feature/custom-navbar)
+$ git add .
+
+Marta@Marta MINGW64 /c/desarrollo/educationit/bootcamp-java-universidad-2023-desafios/desafio3/website (feature/custom-navbar)
+$ git stash --include-untracked
+No local changes to save
+
+Marta@Marta MINGW64 /c/desarrollo/educationit/bootcamp-java-universidad-2023-desafios/desafio3/website (feature/custom-navbar)
+Marta@Marta MINGW64 /c/desarrollo/educationit/bootcamp-java-universidad-2023-desafios/desafio3/website (feature/custom-navbar)
+$ git stash --include-untracked
+No local changes to save
+
+Marta@Marta MINGW64 /c/desarrollo/educationit/bootcamp-java-universidad-2023-desafios/desafio3/website (feature/custom-navbar)
+$ git checkout master
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+
+Marta@Marta MINGW64 /c/desarrollo/educationit/bootcamp-java-universidad-2023-desafios/desafio3/website (master)
+$ git rm status.js
+rm 'status.js'
+
+Marta@Marta MINGW64 /c/desarrollo/educationit/bootcamp-java-universidad-2023-desafios/desafio3/website (master)
+$ dir
+index.html  readme.md
+
+Marta@Marta MINGW64 /c/desarrollo/educationit/bootcamp-java-universidad-2023-desafios/desafio3/website (master)
+
+
