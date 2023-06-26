@@ -1,0 +1,8 @@
+Desde git Se creó una rama front-react de master. (git checkout -b front-react)
+desde git se creo el archivo react.js. (git touch)
+Se agrego y comitio (git add y commit)
+se subio a la rama y el archivo a github (git push)
+se cambio a la rama master (git checkout)
+se subio el archivo a produccion, rama master (git merge)
+se subio a github
+se borro la rama front react (del remoto y del local)
